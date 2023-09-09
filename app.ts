@@ -10,12 +10,7 @@ export class App {
   rents: Rent[] = []
 
   listUser(): void{
-    this.users.forEach(user => {
-      console.log(user.name);
-      console.log(user.email);
-      console.log(user.password);
-      console.log(user.id);
-    });
+    this.users.forEach(user => {console.log(user);});
   }
 
   listRent(): void{
